@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for="username">enter username: </label>
+            <input type="text" id="username" placeholder="enter name" name="username"/>
+        </div>
+        <div>
+            <label for="password">enter password: </label>
+            <input type="password" id="password" placeholder="enter password" name="password"/>
+        </div>
+        <div>
+            <label for="age">I'm 18+ </label>
+            <input type="checkbox" id="age" name="age"/>
+        </div>
+        <div>
+            <label for="apple">apple</label>
+            <input type="radio" id="apple" name="fruit" value="apple"/>
+            <label for="mango">mango</label>
+            <input type="radio" id="mango" name="fruit" value="mango"/>
+            <label for="orange">orange</label>
+            <input type="radio" id="orange" name="fruit" value="orange"/>
+        </div>
+        <div>
+            choose your profession
+            <select name="profession" id="profession">
+                <option value="stu">Student</option>
+                <option value="dev" selected>Developer</option>
+            </select>
+        </div>
+        <div>
+            <label for="volume">select volume level</label>
+            <input type="range" min="0" max="100" name="vol" id="volume" step="10" value="30">
+        </div>
+        <div>
+            <label for="feedback">give feedback</label>
+            <textarea name="feedback" id="feedback" rows="5" cols="10" placeholder="enter feedback">      
+            </textarea>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form> 
+</body>
+</html>
