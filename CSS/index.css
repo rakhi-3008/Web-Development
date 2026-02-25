@@ -1,0 +1,30 @@
+h3{
+    color: chartreuse;
+    background-color: black;
+    text-align: center;
+}
+
+p{
+    color: darkgreen;
+    background-color: chartreuse;
+    font-weight: 800;
+    line-height: 2.5;
+}
+
+h4{
+    text-align: center;
+    line-height: 2.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-weight: 900;
+    font-size: 55px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double;
+    text-transform: uppercase;
+}
