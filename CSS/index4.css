@@ -1,0 +1,37 @@
+#trans{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 50px;
+    transform: rotate(45deg);
+    box-shadow: 2px 2px 100px rgb(37, 32, 174);
+    background-image: url(tim-oun-2c5eDhXyx0c-unsplash.jpg);
+    background-size: cover;
+}
+
+#trans:hover{
+    background-color: blueviolet;
+    transform: scale(1.5);
+    transition: 2s;
+    transform: translate(100px, 100px);
+    transform: skew(45deg);
+}
+
+div{
+    height: 100px;
+    width: 100px;
+}
+
+#static{
+    background-color: brown;
+    position: static;
+    top: 100px;
+}
+
+#relative{
+    background-color: brown;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}

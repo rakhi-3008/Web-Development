@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: crimson;
+    color: white;
+
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes fontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
