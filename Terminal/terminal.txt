@@ -1,0 +1,57 @@
+A text input and output environment
+
+Command Line - any interface that is used by entering textual commands(gen. Windows centric)
+Terminal - this is a type command line (gen. Mac centric)
+Console - A command-line interface used to work with your computer
+
+Shell - A program running on Terminal
+
+Bash - A popular shell on Mac OS/Linux
+Z-Shell - Another shell (default)
+
+*Commands:
+
+ls - list files (show my files)
+pwd - print working directory (where am i ?)
+clear - clear screen 
+
+*Navigation: inside & outside directories
+
+cd - change directory
+cd .. - back 
+
+*paths: relative & absolute 
+
+cd Desktop/folder (relative path)
+cd /Users/Rakhi/Desktop/folder (absolute path)
+
+/ - root directory
+~ - home directory
+
+*making directory
+
+mkdir - make directory (create folder)
+
+*Flags - characters that we pass with commands to modify their behaviour
+
+manual command
+
+man ls - give info about ls command
+man mkdir - give info about mkdir command
+
+*Touch command - used to create
+
+touch index.html
+touch style.css
+
+*delete files & folders
+
+rm - removes files
+rmdir - removes empty folders
+rm -rf - removes any folders
+
+
+
+
+
+
