@@ -39,7 +39,7 @@ manual command
 man ls - give info about ls command
 man mkdir - give info about mkdir command
 
-*Touch command - used to create
+*Touch command - used to create files
 
 touch index.html
 touch style.css
